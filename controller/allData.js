@@ -18,6 +18,8 @@ const getAllData = {
       res.status(500).send("A Team, there is a problem!");
     }
   },
+  
+  
 };
 
 module.exports = getAllData;
