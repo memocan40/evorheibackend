@@ -3,7 +3,7 @@ const {Pool}  = require('pg');
 const app     = express();
 const cors    = require("cors");
 const port = process.env.PORT || 3001;
-const bodyParser = require("bodyParser");
+const bodyParser = require("body-parser");
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
