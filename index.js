@@ -1,7 +1,7 @@
 const express = require('express');
 const {Pool}  = require('pg');
 const app     = express();
-const port      =3001;
+const port = process.env.PORT || 3000
 
 
 const dotenv=require('dotenv');
